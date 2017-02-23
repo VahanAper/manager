@@ -4,7 +4,7 @@ import { employeeUpdate, employeeCreate } from '../actions';
 import { Card, CardSection, Button } from './common';
 import EmployeeForm from './EmployeeForm';
 
-class EmployeeCreate extends Component {
+class EmployeeCreate extends Component {  
   onButtonPress() {
     const { name, phone, shift } = this.props;
 
